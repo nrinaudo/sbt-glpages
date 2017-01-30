@@ -16,11 +16,11 @@
 
 package com.nrinaudo.sbtglpages
 
-import sbt._
-import sbt.Keys._
-import com.typesafe.sbt.site.SitePlugin.autoImport._
 import com.typesafe.sbt.sbtghpages.GhpagesPlugin
 import com.typesafe.sbt.sbtghpages.GhpagesPlugin.autoImport._
+import com.typesafe.sbt.site.SitePlugin.autoImport._
+import sbt._
+import sbt.Keys._
 
 // Plugin to make use of github pages.
 object GlpagesPlugin extends AutoPlugin {
